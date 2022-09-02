@@ -15,6 +15,22 @@
     margin: 1rem;
   }
 
+  .input-label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .input {
+    font-size: 14px;
+    padding: 1rem 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+  }
+
   #error-message {
     display: block;
     font-size: larger;
@@ -30,12 +46,15 @@
   }
   
   .submit-button {
-    margin: 1rem 0.5rem;
+
+    display: block;
+    margin: auto;
     padding: 0.5rem 0.8rem;
     border-radius: 0.5rem;
     background-color: transparent;
-    border: 1px solid black;
+    border: 2px solid black;
     cursor: pointer;
+    width: auto;
   }
 
   .change-table{
