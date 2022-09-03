@@ -73,3 +73,7 @@
   border-collapse: collapse;
   padding: 0.4rem;
 }
+
+hr {
+  margin: 0.5rem;
+}
